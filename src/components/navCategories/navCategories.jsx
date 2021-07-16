@@ -1,5 +1,4 @@
-import React from 'react';
-import Link from 'react-router-dom'
+import React from 'react'
 
 export default function navCategories() {
     return (
@@ -10,9 +9,9 @@ export default function navCategories() {
             <li class="nav-item">
             <a class="navbar-brand font-weight-bold" aria-current="page" href="/home">Home</a>
               </li>              
-            <Link to="/vinos"><li class="nav-item">
-            <a class="navbar-brand" > Vinos</a>
-              </li> </Link>
+            <li class="nav-item">
+            <a class="navbar-brand" href="https://inspiring-colden-a4e17b.netlify.app/vinos"> Vinos</a>
+              </li> 
               <li class="nav-item">
                 <a class="navbar-brand" aria-current="page" href="/cervezas">Cervezas</a>
               </li>
